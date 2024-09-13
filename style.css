@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 0;
+  padding: 0 16px;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1.4em;
@@ -27,12 +27,12 @@ body {
 #header h1 {
   color: rgb(58, 54, 54);
   font-family: "Merriweather", serif;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 #footer {
   width: 100%;
-  padding: 32px;
+  padding: 32px 0;
   font-size: 0.6em;
   text-align: center;
   color: lightgray;
