@@ -1,0 +1,176 @@
+.main {
+  display: flex;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+#header {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+#header img {
+  height: 64px;
+  width: auto;
+  margin-right: 16px;
+}
+
+#header h1 {
+  color: rgb(58, 54, 54);
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+}
+
+#footer {
+  width: 100%;
+  padding: 32px;
+  font-size: 14px;
+  text-align: center;
+  color: lightgray;
+  font-style: italic;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+
+.list {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.details {
+  position: absolute;
+  overflow-y: scroll;
+  right: 16px;
+  bottom: 16px;
+  width: 50%;
+  height: 50%;
+  padding: 8px;
+}
+
+.details-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.details-header .title {
+  font-size: 24px;
+  color: rgb(58, 54, 54);
+  font-family: "Merriweather", serif;
+  padding-left: 8px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: rgb(88, 87, 87);
+}
+
+a {
+  color: rgb(90, 58, 163);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.marker {
+  position: absolute;
+  color: rgb(90, 58, 163);
+  font-size: 80px !important;
+  cursor: pointer;
+  margin-top: -40px;
+  margin-left: -40px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.marker:hover {
+  color: rgb(113, 89, 168);
+}
+
+.marker.selected {
+  color: rgb(23, 176, 196);
+  font-weight: bolder;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.instagram {
+  background: url("./instagram.svg");
+}
+
+.facebook {
+  background: url("facebook.svg");
+}
+
+#oslo {
+  top: 85%;
+  left: 23%;
+}
+
+#trondheim {
+  top: 62%;
+  left: 22%;
+}
+
+#kristiansand {
+  top: 96%;
+  left: 12%;
+}
+
+#tromso {
+  top: 12%;
+  left: 55%;
+}
+
+#sogndal {
+  top: 76%;
+  left: 9%;
+}
+
+#bergen {
+  top: 81%;
+  left: 5%;
+}
